@@ -2,6 +2,14 @@
 
 言令（`yanxu-cli`）是纯言序的声明式命令行解析库，支持长短选项、组合短开关、`--name=value`、`--no-name`、类型转换、默认值、重复选项、位置参数、余项、子命令与中文帮助。
 
+## 安装
+
+使用言包添加到当前项目：
+
+```sh
+yanbao add 言令 --git https://github.com/yanxulang/yanxu-cli.git --version '^0.1'
+```
+
 ```yanxu
 引「包:言令」为 言令；
 
