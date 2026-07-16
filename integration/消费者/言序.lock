@@ -1,0 +1,24 @@
+lock_version = 2
+manifest_checksum = "9eadbfd11745ab64eed03c4e4628a203171954b943ff3982bba45a29f9a16b5c"
+target = "aarch64-apple-darwin"
+generator = "1.1.8"
+
+[root_dependencies]
+"言令" = "言令@1.0.0#e526f172db95-385c0fb663881f18"
+
+[root_dev_dependencies]
+
+[[package]]
+id = "言令@1.0.0#e526f172db95-385c0fb663881f18"
+name = "言令"
+version = "1.0.0"
+source = "path:../.."
+checksum = "385c0fb663881f18755af52d7f6f05d5c0d4f899dcd53060c56e15fae4bdd80c"
+entry = "src/言令.yx"
+target = "aarch64-apple-darwin"
+minimum_yanxu = ">=1.1.6"
+
+[package.dependencies]
+
+[package.exports]
+"默认" = "src/言令.yx"
